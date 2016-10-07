@@ -1,5 +1,5 @@
 'use strict';
-var Toast = function(selector, options) {
+NEB.Toast = function(selector, options) {
 	const defaults = {
 		timeout: 10000,
 		duration: 0.2
@@ -51,5 +51,3 @@ var Toast = function(selector, options) {
 	}
 	
 };
-
-window.Toast = Toast;

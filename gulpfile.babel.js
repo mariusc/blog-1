@@ -46,9 +46,10 @@ const PATHS = {
 			'./themes/nodes/source/_js/vendor/jquery.min.js',
 			'./themes/nodes/source/_js/vendor/TweenLite.min.js',
 			'./themes/nodes/source/_js/vendor/CSSPlugin.min.js',
-			'./themes/nodes/source/_js/client/toast.js',
-			'./themes/nodes/source/_js/client/app.js',
-			'./themes/nodes/source/_js/client/file.js'
+			'./themes/nodes/source/_js/client/neb-main.js',
+			'./themes/nodes/source/_js/client/neb-toast.js',
+			'./themes/nodes/source/_js/client/neb-serviceworker-registration.js',
+			'./themes/nodes/source/_js/client/app.js'
 		],
 		outFiles: './themes/nodes/source/js',
 		tmpPath: '.tmp/scripts',
